@@ -1,0 +1,46 @@
+{
+    "short_name": "Roamora",
+    "name": "Roamora",
+    "description": "A Travelling Website",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#F9F6EE",
+    "theme_color": "#F9F6EE",
+    "orientation": "portrait",
+    "icons": [
+      {
+        "src": "img/roamora.webp",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "img/roamora.webp",
+        "sizes": "512x512",
+        "type": "image/png"
+      },
+      {
+        "src": "img/roamora.webp",
+        "sizes": "1024x1024",
+        "type": "image/png"
+      }
+    ],
+    "screenshots": [
+      {
+        "src": "img/roamora.webp",
+        "sizes": "640x1136",
+        "type": "image/png"
+      },
+      {
+        "src": "img/roamora.webp",
+        "sizes": "640x1136",
+        "type": "image/png"
+      }
+    ],
+    "manifest_version": 2,
+    "prefer_related_applications": false,
+    "gcm_sender_id": "103953800507",
+    "serviceworker": {
+      "src": "/service-worker.js",
+      "scope": "/"
+    }
+  }
