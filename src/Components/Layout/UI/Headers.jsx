@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import { FiMenu, FiX } from 'react-icons/fi';
 import '../../../.././src/./index.css';
