@@ -100,12 +100,23 @@ header {
     padding: 10px;
     background: #f4f4f4;
     border-radius: 5px;
+    outline: none;
+    border: none;
+    border-radius: none;
+    outline-offset: none;
+    -webkit-border-radius: none;
+    -moz-border-radius: none;
+    -ms-border-radius: none;
+    -o-border-radius: none;
+    width: 100%;
 }
 
 .search-input {
     flex-grow: 1;
     border: none;
     padding: 8px;
+    border: none;
+    outline: none;
 }
 
 .search-icon {
