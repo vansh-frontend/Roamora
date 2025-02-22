@@ -216,7 +216,7 @@ nav ul li a:hover {
 .hamburger {
     display: block;
     cursor: pointer;
-    color: #333;
+    color: #f8f8f8;
 }
 
 @media (min-width: 769px) {
